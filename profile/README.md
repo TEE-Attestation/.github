@@ -1,6 +1,6 @@
 # TEE-Attestation
 
-Home of the TEE Attestation Service (**TAS**), and tools and libraries for building, securing, attesting and verifying Trusted Execution Environments to enable Confidential Computing.
+Home of the Trusted Execution Environment Attestation Service (**TAS**) and tools and libraries for building, securing, attesting and verifying Trusted Execution Environments (TEEs) to enable Confidential Computing.
 
 ## TAS Overview
 
@@ -18,7 +18,7 @@ TAS provides:
 
 - [**TAS**](https://github.com/TEE-Attestation/tas), a server that verifies attestations, manages policies and orchestrates secret distribution
 - [**TAS Agent**](https://github.com/TEE-Attestation/tas_agent), running within your TEE to collect evidence and interact with the TAS API, runnable as a service or from the command line
-- **Libraries** to process and verify different attetstation types:
+- **Libraries** to process and verify different attestation types:
     - [**snp_pytools**](https://github.com/TEE-Attestation/snp_pytools) for AMD SEV-SNP
     - **tdx_pytools** for Intel TDX (coming soon)
 
